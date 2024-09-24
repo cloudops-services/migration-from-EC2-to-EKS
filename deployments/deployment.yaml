@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ml-demo-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ml-demo-app
+  template:
+    metadata:
+      labels:
+        app: ml-demo-app
+    spec:
+      containers:
+      - name: ml-demo-app
+        image: <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/ml-demo-app:latest
+        ports:
+        - containerPort: 5000
