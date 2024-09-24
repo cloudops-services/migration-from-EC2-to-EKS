@@ -1,0 +1,19 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Keys and sensitive information
+*.pem
+*.key
+*.json
+
+# Docker and build files
+docker-compose.yml
+.DS_Store
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
