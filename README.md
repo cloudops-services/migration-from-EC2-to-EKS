@@ -15,7 +15,7 @@ This project walks through the process of migrating an application from an EC2 i
 Hope you find this guide helpful :)
 
 **AJ**  
-aj@cloudops-services.com | @cloudops
+admin@cloudops-services.com | @cloudops
 
 ---
 
